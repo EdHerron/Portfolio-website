@@ -1,18 +1,24 @@
 * {
-    font-family: helvetica, sans-serif;
+    font-family: poppins, sans-serif;
 }
 
 body {
     width: 90%;
-
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    max-width: 1500px;
-    margin: 0 auto 20px auto;
+    max-width: 90rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
     border-bottom: solid 1px black;
+    padding: 1rem;
+}
+
+h1 {
+    font-family: Merriweather, serif;
 }
 
 nav {
@@ -22,14 +28,63 @@ nav {
     align-items: center;
 }
 
+main {
+    max-width: 90rem;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+
 .container {
     display: flex;
     width: 90%;
     margin: 0 auto;
 }
 
+#about-me-and-pic {
+    gap: 5%;
+}
+
 .pic-of-me {
     width: 85%;
     border-radius: 100%;
     border: solid 1px black;
+}
+
+#languages-and-projects {
+    margin-top: 3rem;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#languages, #projects {
+    margin: auto;
+    width: 20rem;
+    border: solid 1px black;
+    padding: 0 1.5rem;
+    box-shadow: 0.25rem 0.5rem;;
+}
+
+#languages {
+    display: flex;
+}
+
+.language-logos {
+    width: 7rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    border-top: solid 1px black;
+    height: 5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 1rem;
+    z-index: 5;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 1)
 }

@@ -1,5 +1,5 @@
 # A Portfolio Website for me (Ed Herron)
-========================================
+
 
 ## Purpose of this website
 ----------------------------------------------
